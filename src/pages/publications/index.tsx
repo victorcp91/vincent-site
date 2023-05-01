@@ -14,6 +14,7 @@ export default function publications({ preprints, publications}: IPublications) 
     <>
         <Head>
             <title>Vincent Guigues | Publications</title>
+            <meta name="description" content="Page containing publications by Vincent Guigues"/>
         </Head>
         <main className="p-5 md:p-10 flex flex-col md:flex-row">
             <section className="flex-1 text-center">

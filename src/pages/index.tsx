@@ -16,6 +16,7 @@ export default function Home({main, home}: IHome) {
     <>
       <Head>
         <title>{title}</title>
+        <meta name="description" content="Page containing articles, publications and projects by Vincent Guigues" />
       </Head>
       <main className="p-5 md:p-10">
         <section className='flex mb-8'>
