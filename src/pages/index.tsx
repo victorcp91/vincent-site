@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import type { NextApiRequest, NextApiResponse } from 'next'
 import Image from 'next/image'
+import type { NextApiRequest, NextApiResponse } from 'next'
 import { IMain, IHomeData } from '@/types'
 
 interface IHome {
@@ -10,10 +10,12 @@ interface IHome {
 
 export default function Home({main, home}: IHome) {
 
+  const title = `${main.attributes.title} | ${main.attributes.subtitle}`
+
   return (
     <>
       <Head>
-        <title>{main.attributes.title} | {main.attributes.subtitle}</title>
+        <title>{title}</title>
       </Head>
       <main className="p-5 md:p-10">
         <section className='flex mb-8'>
@@ -41,13 +43,12 @@ export default function Home({main, home}: IHome) {
   )
 }
 
-export async function getServerSideProps({ req, res }: {req: NextApiRequest, res: NextApiResponse}) {
+export async function getServerSideProps({ res }: {req: NextApiRequest, res: NextApiResponse}) {
 
-  // res.setHeader(
-  //   'Cache-Control',
-  //   'public, s-maxage=1800, stale-while-revalidate=59'
-  // )
-
+  res.setHeader(
+    'Cache-Control',
+    'public, s-maxage=1800, stale-while-revalidate=59'
+  )
 
   try {
 

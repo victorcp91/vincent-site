@@ -1,5 +1,5 @@
 import Head from "next/head"
-import type { NextApiRequest, NextApiResponse } from 'next'
+import type { NextApiResponse } from 'next'
 import { IMain, IPreprint, IPublication } from "@/types"
 
 
@@ -9,13 +9,13 @@ interface IPublications {
     publications: IPublication[]
   }
 
-export default function publications({main, preprints, publications}: IPublications) {
+export default function publications({ preprints, publications}: IPublications) {
   return (
     <>
         <Head>
             <title>Vincent Guigues | Publications</title>
         </Head>
-        <main className="p-5 md:p-10 flex">
+        <main className="p-5 md:p-10 flex flex-col md:flex-row">
             <section className="flex-1 text-center">
                 <h3 className="font-bold mb-5 text-xl">Preprints</h3>
                 <ul>
@@ -23,21 +23,17 @@ export default function publications({main, preprints, publications}: IPublicati
                         <li key={p.id} className="mb-10">
                             <div className="font-semibold text-lg">{p.attributes.title}</div>
                             <div className="text-sm">{p.attributes.author} | {p.attributes.year}</div>
-                            {!!p.attributes.file?.url && <div>
+                            {!!p.attributes.file?.url && 
                                 <a className="text-blue-600 mr-5" href={p.attributes.file.url} target="_blank">Visualizar</a>
-                                <a className="text-blue-600" href={p.attributes.file.url} download>Download</a>
-                            </div>
                             }
                             {!p.attributes.file?.url && p.attributes.link && 
-                                <div>
-                                    <a className="text-blue-600 mr-5" href={p.attributes.link} target="_blank">Visualizar</a>
-                                    <a className="text-blue-600" href={p.attributes.link} download>Download</a>
-                                </div>
+                                <a className="text-blue-600 mr-5" href={p.attributes.link} target="_blank">Visualizar</a>
                             }
                         </li>
                     ))}
                 </ul>
             </section>
+            <hr className="md:hidden mb-10 border-gray-300"/>
             <section className="flex-1 text-center">
                 <h3 className="font-bold mb-5 text-xl">Publication</h3>
                 <ul>
@@ -50,15 +46,11 @@ export default function publications({main, preprints, publications}: IPublicati
                                 {!!p.attributes.volume && <div>Volume: {p.attributes.volume}</div>}
                             </div>
                             <div className="text-sm mb-1">{p.attributes.author} | {p.attributes.year}</div>
-                            {!!p.attributes.file?.url && <div className="[&>a]:text-blue-600">
-                                <a className="mr-5" href={p.attributes.file.url} target="_blank">Visualizar</a>
-                                <a href={p.attributes.file.url} download>Download</a>
-                            </div>}
+                            {!!p.attributes.file?.url &&
+                                <a className="mr-5 text-blue-600" href={p.attributes.file.url} target="_blank">Visualizar</a>
+                            }
                             {!p.attributes.file?.url && p.attributes.link && 
-                                <div className="[&>a]:text-blue-600">
-                                    <a className="mr-5" href={p.attributes.link} target="_blank">Visualizar</a>
-                                    <a href={p.attributes.link} download>Download</a>
-                                </div>
+                                <a className="mr-5 text-blue-600" href={p.attributes.link} target="_blank">Visualizar</a>
                             }
                         </li>
                     ))}
@@ -69,12 +61,12 @@ export default function publications({main, preprints, publications}: IPublicati
   )
 }
 
-export async function getServerSideProps({ req, res }: {req: NextApiRequest, res: NextApiResponse}) {
+export async function getServerSideProps({ res }: { res: NextApiResponse }) {
 
-    // res.setHeader(
-    //   'Cache-Control',
-    //   'public, s-maxage=1800, stale-while-revalidate=59'
-    // )
+    res.setHeader(
+        'Cache-Control',
+        'public, s-maxage=1800, stale-while-revalidate=59'
+    )
   
     try {
         const [main, preprints, publications] = await Promise.all([
