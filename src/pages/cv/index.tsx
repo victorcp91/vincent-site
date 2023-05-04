@@ -39,14 +39,14 @@ export default function CV({main, cv}: ICV) {
             <section className="flex my-5 gap-10">
               {!!cv.profile_picture.url && (
                 <Image
-                  className={`block min-w-[${cv.profile_picture.width}px] h-[${cv.profile_picture.height}px]`}
+                  className={`min-w-[${cv.profile_picture.width}px] max-w-[${cv.profile_picture.width}px] max-h-full h-full`}
                   width={cv.profile_picture.width}
                   height={cv.profile_picture.height}
                   src={cv.profile_picture.url}
                   alt="Vincent Guigues"
               />)}
               <div>
-                <h3 className="font-bold mb-5 text-xl">{s.title}</h3>
+                <h3 className="font-bold mb-5 text-xl leading-[13px]">{s.title}</h3>
                 <ReactMarkdown>{s.text}</ReactMarkdown>
               </div>
               

@@ -21,7 +21,7 @@ export default function Home({main, home}: IHome) {
       <main className="p-5 md:p-10">
         <section className='flex mb-8'>
            <Image
-                className={`mr-5 min-w-[${home.attributes.profile_picture.width}px] h-[${home.attributes.profile_picture.height}px]`}
+                className={`mr-10 min-w-[${home.attributes.profile_picture.width}px] max-w-[${home.attributes.profile_picture.width}px] w-[${home.attributes.profile_picture.width}px] h-full`}
                 width={home.attributes.profile_picture.width}
                 height={home.attributes.profile_picture.height}
                 src={home.attributes.profile_picture.url}
