@@ -10,11 +10,12 @@ export default function MainMenu() {
         <nav className='w-full flex flex-wrap justify-around items-center bg-blue-600'>
             {[
                 ['Home', '/'],
-                // ['Research', '/research'],
+                ['Research', '/research'],
                 ['Publications', '/publications'],
-                // ['Talks', '/talks'],
-                // ['People', '/people'],
-                // ['Teaching', '/teaching']
+                ['Talks', '/talks'],
+                ['People', '/people'],
+                ['Teaching', '/teaching'],
+                ['CV', '/cv']
             ].map(([title, url]) => (
                 <Link 
                     key={title}

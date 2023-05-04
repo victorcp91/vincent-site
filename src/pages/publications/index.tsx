@@ -21,7 +21,7 @@ export default function publications({ preprints, publications}: IPublications) 
                 <h3 className="font-bold mb-5 text-xl">Preprints</h3>
                 <ul>
                     {preprints.map(p => (
-                        <li key={p.id} className="mb-10">
+                        <li key={p.id} className="mb-10 list-none">
                             <div className="font-semibold text-lg">{p.attributes.title}</div>
                             <div className="text-sm">{p.attributes.author} | {p.attributes.year}</div>
                             {!!p.attributes.file?.url && 
@@ -39,7 +39,7 @@ export default function publications({ preprints, publications}: IPublications) 
                 <h3 className="font-bold mb-5 text-xl">Publication</h3>
                 <ul>
                     {publications.map(p => (
-                        <li key={p.id} className="mb-10">
+                        <li key={p.id} className="mb-10 list-none">
                             <div className="font-semibold text-lg">{p.attributes.title}</div>
                             <div className="flex justify-center gap-5 [&>div]:text-sm">
                                 {!!p.attributes.pages && <div>Pages: {p.attributes.pages}</div>}

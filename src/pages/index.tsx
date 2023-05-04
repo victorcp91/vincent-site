@@ -20,14 +20,14 @@ export default function Home({main, home}: IHome) {
       </Head>
       <main className="p-5 md:p-10">
         <section className='flex mb-8'>
-          <Image
-            width={home.attributes.profile_picture.width}
-            height={home.attributes.profile_picture.height}
-            src={home.attributes.profile_picture.url}
-            alt="Vincent Guigues"
-            priority
-            className='mr-5'
-          />
+           <Image
+                className={`mr-5 min-w-[${home.attributes.profile_picture.width}px] h-[${home.attributes.profile_picture.height}px]`}
+                width={home.attributes.profile_picture.width}
+                height={home.attributes.profile_picture.height}
+                src={home.attributes.profile_picture.url}
+                alt="Vincent Guigues"
+                priority
+            />
           <p className='text-base'>{home.attributes.about}</p>
         </section>
         <hr className='border-gray-300'/>
