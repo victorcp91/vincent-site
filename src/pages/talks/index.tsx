@@ -16,7 +16,7 @@ interface ITalks {
 export default function Talks({main, talks}: ITalks) {
   
   return (
-    <div className="p-5 md:p-10">
+    <div className="p-5 md:p-10 w-full max-w-2xl m-auto">
         <Head>
             <title>Vincent Guigues | Talks</title>
          </Head>

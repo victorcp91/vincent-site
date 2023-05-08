@@ -31,7 +31,7 @@ interface ICV {
 export default function CV({main, cv}: ICV) {
   console.log(main, cv)
   return (
-    <div className="p-5 md:p-10">
+    <div className="p-5 md:p-10 w-full max-w-2xl m-auto">
         <Head>
             <title>Vincent Guigues | CV</title>
          </Head>

@@ -16,7 +16,7 @@ interface ITeaching {
 
 export default function Teaching({main, teaching}: ITeaching) {
   return (
-    <div className="p-5 md:p-10">
+    <div className="p-5 md:p-10 w-full max-w-2xl m-auto">
       <Head>
         <title>Vincent Guigues | Teaching</title>
       </Head>

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import type { NextApiRequest, NextApiResponse } from 'next'
 import ReactMarkdown from 'react-markdown'
 
-interface IResearch {
+interface IResearchTopics {
   main: any
   research: {
     section: {
@@ -13,11 +13,10 @@ interface IResearch {
   }
 }
 
-export default function Research({main, research}: IResearch) {
-  console.log(main, research)
+export default function ResearchTopics({main, research}: IResearchTopics) {
 
   return (
-    <div className="p-5 md:p-10">
+    <div className="p-5 md:p-10 w-full max-w-2xl m-auto">
       <Head>
         <title>Vincent Guigues | Research</title>
       </Head>

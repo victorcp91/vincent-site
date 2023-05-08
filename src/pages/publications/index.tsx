@@ -16,8 +16,8 @@ export default function publications({ preprints, publications}: IPublications) 
             <title>Vincent Guigues | Publications</title>
             <meta name="description" content="Page containing publications by Vincent Guigues"/>
         </Head>
-        <main className="p-5 md:p-10 flex flex-col md:flex-row">
-            <section className="flex-1 text-center">
+        <main className="p-5 md:p-10 w-full max-w-2xl m-auto">
+            <section>
                 <h3 className="font-bold mb-5 text-xl">Preprints</h3>
                 <ul>
                     {preprints.map(p => (
@@ -34,24 +34,24 @@ export default function publications({ preprints, publications}: IPublications) 
                     ))}
                 </ul>
             </section>
-            <hr className="md:hidden mb-10 border-gray-300"/>
-            <section className="flex-1 text-center">
-                <h3 className="font-bold mb-5 text-xl">Publication</h3>
+            <hr className='border-gray-300' />
+            <section>
+                <h3 className="font-bold my-5 text-xl">Publication</h3>
                 <ul>
                     {publications.map(p => (
                         <li key={p.id} className="mb-10 list-none">
                             <div className="font-semibold text-lg">{p.attributes.title}</div>
-                            <div className="flex justify-center gap-5 [&>div]:text-sm">
+                            <div className="[&>div]:text-sm">
                                 {!!p.attributes.pages && <div>Pages: {p.attributes.pages}</div>}
                                 {!!p.attributes.issue && <div>Issue: {p.attributes.issue}</div>}
                                 {!!p.attributes.volume && <div>Volume: {p.attributes.volume}</div>}
                             </div>
                             <div className="text-sm mb-1">{p.attributes.author} | {p.attributes.year}</div>
                             {!!p.attributes.file?.url &&
-                                <a className="mr-5 text-blue-600" href={p.attributes.file.url} target="_blank">Visualizar</a>
+                                <a className="mr-5 text-blue-600" href={p.attributes.file.url} target="_blank">View</a>
                             }
                             {!p.attributes.file?.url && p.attributes.link && 
-                                <a className="mr-5 text-blue-600" href={p.attributes.link} target="_blank">Visualizar</a>
+                                <a className="mr-5 text-blue-600" href={p.attributes.link} target="_blank">View</a>
                             }
                         </li>
                     ))}

@@ -8,5 +8,9 @@ li {
 }
 
 a {
-    color: rgb(29, 78, 216);
+    color: #6DA6E2;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
 }

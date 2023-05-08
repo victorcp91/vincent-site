@@ -51,3 +51,10 @@ export interface IPublication {
         pages?: string
     }
 }
+
+export interface IProject {
+  id: number
+  name: string
+  description: string
+  link: string
+}

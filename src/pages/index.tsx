@@ -18,7 +18,7 @@ export default function Home({main, home}: IHome) {
         <title>{title}</title>
         <meta name="description" content="Page containing articles, publications and projects by Vincent Guigues" />
       </Head>
-      <main className="p-5 md:p-10">
+      <main className="p-5 md:p-10 w-full max-w-2xl m-auto">
         <section className='flex mb-8'>
            <Image
                 className={`mr-10 min-w-[${home.attributes.profile_picture.width}px] max-w-[${home.attributes.profile_picture.width}px] w-[${home.attributes.profile_picture.width}px] h-full`}

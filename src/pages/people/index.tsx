@@ -15,7 +15,7 @@ interface IPeople {
 
 export default function People({main, people}: IPeople) {
   return (
-    <div className="p-5 md:p-10">
+    <div className="p-5 md:p-10 w-full max-w-2xl m-auto">
         <Head>
             <title>Vincent Guigues | People</title>
         </Head>
