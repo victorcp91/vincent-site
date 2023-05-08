@@ -24,7 +24,7 @@ export default function Projects({ main, projects}: IProjects) {
                             <div className="font-semibold text-lg">{p.name}</div>
                             <div className="text-sm">{p.description}</div>
                             {!!p.link && 
-                                <a className="text-blue-600 block my-1" href={p.link} target="_blank">View Project</a>
+                                <a className="block my-1" href={p.link} target="_blank">View Project</a>
                             }
                         </li>
                     ))}

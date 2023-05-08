@@ -34,9 +34,9 @@ export default function Home({main, home}: IHome) {
         <section className='flex my-8'>
           <address>
             <h3 className='text-xl font-medium'>Contact</h3>
-            {!!home.attributes.email && <p className='my-1'>Email: <a className="text-blue-700" href={`mailto:${home.attributes.email}`}>{home.attributes.email}</a></p>}
-            {!!home.attributes.phone && <p className='my-1'>Phone: <a className="text-blue-700" href={home.attributes.phone_link}>{home.attributes.phone}</a></p>}
-            {!!home.attributes.address &&<p className='my-1'>Address: <a className="text-blue-700" href={home.attributes.address_link} target='_blank'>{home.attributes.address}</a></p>}
+            {!!home.attributes.email && <p className='my-1'>Email: <a href={`mailto:${home.attributes.email}`}>{home.attributes.email}</a></p>}
+            {!!home.attributes.phone && <p className='my-1'>Phone: <a href={home.attributes.phone_link}>{home.attributes.phone}</a></p>}
+            {!!home.attributes.address &&<p className='my-1'>Address: <a href={home.attributes.address_link} target='_blank'>{home.attributes.address}</a></p>}
           </address>
         </section>
       </main>

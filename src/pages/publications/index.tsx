@@ -25,10 +25,10 @@ export default function publications({ preprints, publications}: IPublications) 
                             <div className="font-semibold text-lg">{p.attributes.title}</div>
                             <div className="text-sm">{p.attributes.author} | {p.attributes.year}</div>
                             {!!p.attributes.file?.url && 
-                                <a className="text-blue-600 mr-5" href={p.attributes.file.url} target="_blank">View</a>
+                                <a className="mr-5" href={p.attributes.file.url} target="_blank">View</a>
                             }
                             {!p.attributes.file?.url && p.attributes.link && 
-                                <a className="text-blue-600 mr-5" href={p.attributes.link} target="_blank">View</a>
+                                <a className="mr-5" href={p.attributes.link} target="_blank">View</a>
                             }
                         </li>
                     ))}
