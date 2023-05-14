@@ -21,14 +21,13 @@ export default function Home({main, home}: IHome) {
       <main className="px-10 pb-2 w-full max-w-2xl m-auto">
         <h2>Presentation</h2>
         <section className='flex mb-3'>
-          <div className='border border-black p-1 mr-3'>
+          <div className={`border border-black p-1 mr-3 h-fit min-w-fit [&>img]:min-w-fit`}>
             <Image
-                  className={`min-w-[${home.attributes.profile_picture.width}px] max-w-[${home.attributes.profile_picture.width}px] w-[${home.attributes.profile_picture.width}px] h-full`}
+                  className={`h-full`}
                   width={home.attributes.profile_picture.width}
                   height={home.attributes.profile_picture.height}
                   src={home.attributes.profile_picture.url}
                   alt="Vincent Guigues"
-                  priority
               />
           </div>
           <p>{home.attributes.about}</p>
@@ -82,34 +81,6 @@ export async function getServerSideProps({ res }: {req: NextApiRequest, res: Nex
     }
   } catch(err){
     console.error(err);
-
-    return {
-      props: {
-        main: {
-          id: 1,
-          attributes: {
-            title: 'Vincent Guigues',
-            subtitle: 'Mathemstical Optimizaztiion'
-          }
-        },
-        home:{
-          id: 1,
-          attributes: {
-            about: 'Sobre vincent guigues text',
-            email: 'vincent@gmail.com',
-            phone: '21 983838383',
-            address: 'Rua do vincent 150',
-            phone_link: 'phonelink@gmail.com',
-            address_link: 'adrres@gmail.com',
-            profile_picture: {
-              url: '/urldaimage.jpg',
-              width: 150,
-              height: 150,
-            }
-          }
-        }
-      },
-    }
   }
   return {
     props: {}

@@ -41,15 +41,15 @@ export default function CV({cv}: ICV) {
                 <ReactMarkdown>{s.text}</ReactMarkdown>
               </div>
               {!!cv.profile_picture.url && (
-                <div className='border border-black p-1 mr-3'>
-                  <Image
-                    className={`min-w-[${cv.profile_picture.width}px] max-w-[${cv.profile_picture.width}px] max-h-full h-full`}
-                    width={cv.profile_picture.width}
-                    height={cv.profile_picture.height}
-                    src={cv.profile_picture.url}
-                    alt="Vincent Guigues"
-                />
-              </div>)}
+              <div className={`border border-black p-1 mr-3 h-fit min-w-fit [&>img]:min-w-fit`}>
+                 <Image
+                       className={`h-full`}
+                       width={cv.profile_picture.width}
+                       height={cv.profile_picture.height}
+                       src={cv.profile_picture.url}
+                       alt="Vincent Guigues"
+                   />
+               </div>)}
             </section>
             <hr />
           </div>)}
