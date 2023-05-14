@@ -13,20 +13,20 @@ interface IPeople {
   }
 }
 
-export default function People({main, people}: IPeople) {
+export default function People({people}: IPeople) {
   return (
-    <div className="p-5 md:p-10 w-full max-w-2xl m-auto">
+    <div className="px-10 w-full max-w-2xl m-auto">
         <Head>
             <title>Vincent Guigues | People</title>
         </Head>
         <div>
         {people.section.map((s, i) => <div key={s.id} >
           <section key={s.id}  className="my-5">
-            <h3 className="font-bold mb-5 text-xl">{s.title}</h3>
+            <h2>{s.title}</h2>
             <ReactMarkdown>{s.text}</ReactMarkdown>
           </section>
           {people.section.length - 1 !== i && (
-              <hr className='border-gray-300'/>
+              <hr />
           )}
         </div>)}
         </div>

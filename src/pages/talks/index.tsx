@@ -13,17 +13,17 @@ interface ITalks {
   }
 }
 
-export default function Talks({main, talks}: ITalks) {
+export default function Talks({talks}: ITalks) {
   
   return (
-    <div className="p-5 md:p-10 w-full max-w-2xl m-auto">
+    <div className="px-10 w-full max-w-2xl m-auto">
         <Head>
             <title>Vincent Guigues | Talks</title>
          </Head>
         <div>
         {talks.section.map((s,i) => <>
-          <section key={s.id}  className="my-5">
-            <h3 className="font-bold mb-5 text-xl">{s.title}</h3>
+          <section key={s.id}  className="mb-5">
+            <h2>{s.title}</h2>
             <ReactMarkdown>{s.text}</ReactMarkdown>
           </section>
           {talks.section.length - 1 !== i && (

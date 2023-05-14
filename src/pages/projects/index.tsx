@@ -8,23 +8,23 @@ interface IProjects {
     projects: IProject[]
   }
 
-export default function Projects({ main, projects}: IProjects) {
+export default function Projects({projects}: IProjects) {
   return (
     <>
         <Head>
             <title>Vincent Guigues | Projects</title>
             <meta name="description" content="Page containing projects by Vincent Guigues"/>
         </Head>
-        <main className="p-5 md:p-10 w-full max-w-2xl m-auto">
+        <main className="px-10 w-full max-w-2xl m-auto">
             <section>
-                <h3 className="font-bold mb-5 text-xl">Projects</h3>
+                <h2>Projects</h2>
                 <ul>
                     {projects.map(p => (
-                        <li key={p.id} className="mb-10 list-none">
-                            <div className="font-semibold text-lg">{p.name}</div>
-                            <div className="text-sm">{p.description}</div>
+                        <li key={p.id} className="mb-10">
+                            <div className="font-semibold">{p.name}</div>
+                            <div>{p.description}</div>
                             {!!p.link && 
-                                <a className="block my-1" href={p.link} target="_blank">View Project</a>
+                                <span><a className="block my-1" href={p.link} target="_blank">View Project</a></span>
                             }
                         </li>
                     ))}

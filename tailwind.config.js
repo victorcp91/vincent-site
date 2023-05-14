@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        blue: "#6DA6E2" ,
+        blue100: "#2763A5",
+        blue200: "#19416e",
+        gray: "#999999"
+      }
      
     },
     fontFamily : {

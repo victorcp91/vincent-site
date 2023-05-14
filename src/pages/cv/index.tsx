@@ -28,36 +28,36 @@ interface ICV {
   }
 }
 
-export default function CV({main, cv}: ICV) {
-  console.log(main, cv)
+export default function CV({cv}: ICV) {
   return (
-    <div className="p-5 md:p-10 w-full max-w-2xl m-auto">
+    <div className="px-10 w-full max-w-2xl m-auto">
         <Head>
             <title>Vincent Guigues | CV</title>
          </Head>
-          {cv.section.map((s,i) => <div key={s.id} >
-            <section className="flex my-5 gap-10">
-              {!!cv.profile_picture.url && (
-                <Image
-                  className={`min-w-[${cv.profile_picture.width}px] max-w-[${cv.profile_picture.width}px] max-h-full h-full`}
-                  width={cv.profile_picture.width}
-                  height={cv.profile_picture.height}
-                  src={cv.profile_picture.url}
-                  alt="Vincent Guigues"
-              />)}
+          {cv.section.map((s) => <div key={s.id} >
+            <h2>{s.title}</h2>
+            <section className="flex my-5 gap-3">
               <div>
-                <h3 className="font-bold mb-5 text-xl leading-[13px]">{s.title}</h3>
                 <ReactMarkdown>{s.text}</ReactMarkdown>
               </div>
-              
+              {!!cv.profile_picture.url && (
+                <div className='border border-black p-1 mr-3'>
+                  <Image
+                    className={`min-w-[${cv.profile_picture.width}px] max-w-[${cv.profile_picture.width}px] max-h-full h-full`}
+                    width={cv.profile_picture.width}
+                    height={cv.profile_picture.height}
+                    src={cv.profile_picture.url}
+                    alt="Vincent Guigues"
+                />
+              </div>)}
             </section>
-            <hr className='border-gray-300'/>
+            <hr />
           </div>)}
           <section className="my-5">
-            <h3 className="font-bold mb-5 text-xl">{cv.history.title}</h3>
-            <ul>
+            <h2>{cv.history.title}</h2>
+            <ul className="p-0">
               {cv.history.topic.map(t => <li key={t.id} className="flex mb-10 gap-10">
-                <div className="min-w-[150px] text-center">{t.date}</div>
+                <div className="min-w-[90px]">{t.date}</div>
                 <div><ReactMarkdown>{t.content}</ReactMarkdown></div>
               </li> )}
             </ul>

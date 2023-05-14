@@ -16,43 +16,47 @@ export default function publications({ preprints, publications}: IPublications) 
             <title>Vincent Guigues | Publications</title>
             <meta name="description" content="Page containing publications by Vincent Guigues"/>
         </Head>
-        <main className="p-5 md:p-10 w-full max-w-2xl m-auto">
+        <main className="px-10 w-full max-w-2xl m-auto">
             <section>
-                <h3 className="font-bold mb-5 text-xl">Preprints</h3>
+                <h2>Preprints</h2>
                 <ul>
                     {preprints.map(p => (
-                        <li key={p.id} className="mb-10 list-none">
-                            <div className="font-semibold text-lg">{p.attributes.title}</div>
-                            <div className="text-sm">{p.attributes.author} | {p.attributes.year}</div>
-                            {!!p.attributes.file?.url && 
-                                <a className="mr-5" href={p.attributes.file.url} target="_blank">View</a>
-                            }
+                        <li key={p.id} className="mb-10">
+                            <div className="font-semibold [&>span]:font-normal">{p.attributes.title}
+                                <span> {!!p.attributes.year && `(${p.attributes.year})`}</span>
+                                {!!p.attributes.file?.url && 
+                                    <span> [<a href={p.attributes.file.url} target="_blank">view</a>]</span>
+                                }
+                            </div>
+                            <div>{p.attributes.author}</div>
                             {!p.attributes.file?.url && p.attributes.link && 
-                                <a className="mr-5" href={p.attributes.link} target="_blank">View</a>
+                                <span> [<a href={p.attributes.link} target="_blank">view</a>]</span>
                             }
                         </li>
                     ))}
                 </ul>
             </section>
-            <hr className='border-gray-300' />
+            <hr />
             <section>
-                <h3 className="font-bold my-5 text-xl">Publication</h3>
+                <h2>Publications</h2>
                 <ul>
                     {publications.map(p => (
-                        <li key={p.id} className="mb-10 list-none">
-                            <div className="font-semibold text-lg">{p.attributes.title}</div>
-                            <div className="[&>div]:text-sm">
+                        <li key={p.id} className="mb-10">
+                            <div className="font-semibold [&>span]:font-normal">{p.attributes.title}
+                                <span> {!!p.attributes.year && `(${p.attributes.year})`}</span>
+                                {!!p.attributes.file?.url &&
+                                <span> [<a className="text-blue-600" href={p.attributes.file.url} target="_blank">view</a>]</span>
+                                }
+                                {!p.attributes.file?.url && p.attributes.link && 
+                                    <span> [<a className="text-blue-600" href={p.attributes.link} target="_blank">view</a>]</span>
+                                }
+                            </div>
+                            <div className="mb-1">{p.attributes.author}</div>
+                            <div>
                                 {!!p.attributes.pages && <div>Pages: {p.attributes.pages}</div>}
                                 {!!p.attributes.issue && <div>Issue: {p.attributes.issue}</div>}
                                 {!!p.attributes.volume && <div>Volume: {p.attributes.volume}</div>}
-                            </div>
-                            <div className="text-sm mb-1">{p.attributes.author} | {p.attributes.year}</div>
-                            {!!p.attributes.file?.url &&
-                                <a className="mr-5 text-blue-600" href={p.attributes.file.url} target="_blank">View</a>
-                            }
-                            {!p.attributes.file?.url && p.attributes.link && 
-                                <a className="mr-5 text-blue-600" href={p.attributes.link} target="_blank">View</a>
-                            }
+                            </div>            
                         </li>
                     ))}
                 </ul>
@@ -72,9 +76,9 @@ export async function getServerSideProps({ res }: { res: NextApiResponse }) {
     try {
         const [main, preprints, publications] = await Promise.all([
             fetch(`${process.env.API_PATH}/main?populate=*`).then(main => main.json()),
-            fetch(`${process.env.API_PATH}/preprints?populate=*`).then(preprints => preprints.json()),
-            fetch(`${process.env.API_PATH}/publications?populate=*`).then(publications => publications.json())
-        ]).then(all => all.map(a => a.data ))
+            fetch(`${process.env.API_PATH}/preprints?populate=*&pagination[pageSize]=100`).then(preprints => preprints.json()),
+            fetch(`${process.env.API_PATH}/publications?populate=*&pagination[pageSize]=100`).then(publications => publications.json())
+        ]).then(all => all.map(a => a.data))
 
         if(main?.attributes?.background?.data){
             main.attributes.background = main.attributes.background.data.attributes
@@ -98,9 +102,9 @@ export async function getServerSideProps({ res }: { res: NextApiResponse }) {
       
         return {
             props: {
-            main,
-            preprints, 
-            publications
+                main,
+                preprints, 
+                publications
             },
         }
     } catch(err){

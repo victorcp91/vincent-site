@@ -8,7 +8,6 @@ export default function App({ Component, pageProps }: AppProps) {
     {!!pageProps.main && <Header
       title={pageProps.main.attributes.title}
       subtitle={pageProps.main.attributes.subtitle}
-      bgImage={pageProps.main.attributes.background?.url}
     />}
     <Component {...pageProps} />
   </>

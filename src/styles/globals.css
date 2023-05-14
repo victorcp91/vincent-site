@@ -3,14 +3,59 @@
 @tailwind utilities;
 
 
+hr {
+    border-color: rgb(214 211 209);
+}
+
+h1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 14px 0;
+}
+
+h4 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.6em;
+}
+
+
+
+p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.6em;
+    color: rgb(102,102,102);
+    text-align: justify;
+}
+
+ul {
+    padding-left: 40px;
+}
+
 li {
-    list-style: circle;
+    list-style: disc;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.6em;
+    color: rgb(102,102,102);
 }
 
 a {
     color: #6DA6E2;
     font-weight: bold;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
 }
+
 a:hover {
     text-decoration: underline;
+    color: #666666;
 }

@@ -13,20 +13,20 @@ interface IResearchTopics {
   }
 }
 
-export default function ResearchTopics({main, research}: IResearchTopics) {
+export default function ResearchTopics({research}: IResearchTopics) {
 
   return (
-    <div className="p-5 md:p-10 w-full max-w-2xl m-auto">
+    <div className="px-10 w-full max-w-2xl m-auto">
       <Head>
-        <title>Vincent Guigues | Research</title>
+        <title>Vincent Guigues | Research Topics</title>
       </Head>
       {research.section.map((s,i) => <div key={s.id}>
-        <section className="my-5">
-          <h3 className="font-bold my-5 text-xl">{s.title}</h3>
+        <section className="mb-5">
+          <h2>{s.title}</h2>
           <ReactMarkdown>{s.text}</ReactMarkdown>
         </section>
         {research.section.length - 1 !== i && (
-          <hr className='border-gray-300'/>
+          <hr/>
         )}
       </div>)}
     </div>

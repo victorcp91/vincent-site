@@ -18,26 +18,34 @@ export default function Home({main, home}: IHome) {
         <title>{title}</title>
         <meta name="description" content="Page containing articles, publications and projects by Vincent Guigues" />
       </Head>
-      <main className="p-5 md:p-10 w-full max-w-2xl m-auto">
-        <section className='flex mb-8'>
-           <Image
-                className={`mr-10 min-w-[${home.attributes.profile_picture.width}px] max-w-[${home.attributes.profile_picture.width}px] w-[${home.attributes.profile_picture.width}px] h-full`}
-                width={home.attributes.profile_picture.width}
-                height={home.attributes.profile_picture.height}
-                src={home.attributes.profile_picture.url}
-                alt="Vincent Guigues"
-                priority
-            />
-          <p className='text-base'>{home.attributes.about}</p>
+      <main className="px-10 pb-2 w-full max-w-2xl m-auto">
+        <h2>Presentation</h2>
+        <section className='flex mb-3'>
+          <div className='border border-black p-1 mr-3'>
+            <Image
+                  className={`min-w-[${home.attributes.profile_picture.width}px] max-w-[${home.attributes.profile_picture.width}px] w-[${home.attributes.profile_picture.width}px] h-full`}
+                  width={home.attributes.profile_picture.width}
+                  height={home.attributes.profile_picture.height}
+                  src={home.attributes.profile_picture.url}
+                  alt="Vincent Guigues"
+                  priority
+              />
+          </div>
+          <p>{home.attributes.about}</p>
         </section>
-        <hr className='border-gray-300'/>
-        <section className='flex my-8'>
-          <address>
-            <h3 className='text-xl font-medium'>Contact</h3>
-            {!!home.attributes.email && <p className='my-1'>Email: <a href={`mailto:${home.attributes.email}`}>{home.attributes.email}</a></p>}
-            {!!home.attributes.phone && <p className='my-1'>Phone: <a href={home.attributes.phone_link}>{home.attributes.phone}</a></p>}
-            {!!home.attributes.address &&<p className='my-1'>Address: <a href={home.attributes.address_link} target='_blank'>{home.attributes.address}</a></p>}
-          </address>
+        <hr />
+        <h2>Contact information</h2>
+        <section className='flex my-3'>
+          <div className='mr-5'>
+            {!!home.attributes.email && <p className='mb-1'>Email</p>}
+            {!!home.attributes.phone && <p className='mb-1'>Phone</p>}
+            {!!home.attributes.address && <p className='mb-1'>To find me</p>}
+          </div>
+          <div className='flex flex-col'>
+            {!!home.attributes.email && <a className='mb-1' href={`mailto:${home.attributes.email}`}>{home.attributes.email}</a>}
+            {!!home.attributes.phone && <a className='mb-1' href={home.attributes.phone_link}>{home.attributes.phone}</a>}
+            {!!home.attributes.address &&  <a className='mb-1' href={home.attributes.address_link} target='_blank'>{home.attributes.address}</a>}
+          </div>
         </section>
       </main>
     </>
@@ -74,10 +82,36 @@ export async function getServerSideProps({ res }: {req: NextApiRequest, res: Nex
     }
   } catch(err){
     console.error(err);
-  }
 
+    return {
+      props: {
+        main: {
+          id: 1,
+          attributes: {
+            title: 'Vincent Guigues',
+            subtitle: 'Mathemstical Optimizaztiion'
+          }
+        },
+        home:{
+          id: 1,
+          attributes: {
+            about: 'Sobre vincent guigues text',
+            email: 'vincent@gmail.com',
+            phone: '21 983838383',
+            address: 'Rua do vincent 150',
+            phone_link: 'phonelink@gmail.com',
+            address_link: 'adrres@gmail.com',
+            profile_picture: {
+              url: '/urldaimage.jpg',
+              width: 150,
+              height: 150,
+            }
+          }
+        }
+      },
+    }
+  }
   return {
     props: {}
   }
-  
 }
