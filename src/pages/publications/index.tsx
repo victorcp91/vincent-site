@@ -76,8 +76,8 @@ export async function getServerSideProps({ res }: { res: NextApiResponse }) {
     try {
         const [main, preprints, publications] = await Promise.all([
             fetch(`${process.env.API_PATH}/main?populate=*`).then(main => main.json()),
-            fetch(`${process.env.API_PATH}/preprints?populate=*&pagination[pageSize]=100`).then(preprints => preprints.json()),
-            fetch(`${process.env.API_PATH}/publications?populate=*&pagination[pageSize]=100`).then(publications => publications.json())
+            fetch(`${process.env.API_PATH}/preprints?populate=*&pagination[pageSize]=100&sort[0]=year%3Adesc`).then(preprints => preprints.json()),
+            fetch(`${process.env.API_PATH}/publications?populate=*&pagination[pageSize]=100&sort[0]=year%3Adesc`).then(publications => publications.json())
         ]).then(all => all.map(a => a.data))
 
         if(main?.attributes?.background?.data){
