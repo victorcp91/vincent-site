@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": 1,
+    "attributes": {
+      "title": "Vincent Guigues",
+      "subtitle": "Researcher in optimization and statistics. Software engineer",
+      "createdAt": "2023-04-30T02:06:42.449Z",
+      "updatedAt": "2023-05-17T20:39:18.632Z",
+      "publishedAt": "2023-04-30T02:06:44.517Z",
+      "background": {
+        "name": "header_picture.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1680,
+        "height": 1050,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/large_header_picture_8e0d8832c7.jpg",
+            "hash": "large_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "large_header_picture.jpg",
+            "path": null,
+            "size": 17.19,
+            "width": 1000,
+            "height": 625,
+            "provider_metadata": {
+              "public_id": "large_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/small_header_picture_8e0d8832c7.jpg",
+            "hash": "small_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "small_header_picture.jpg",
+            "path": null,
+            "size": 6.36,
+            "width": 500,
+            "height": 313,
+            "provider_metadata": {
+              "public_id": "small_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/medium_header_picture_8e0d8832c7.jpg",
+            "hash": "medium_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "medium_header_picture.jpg",
+            "path": null,
+            "size": 11.17,
+            "width": 750,
+            "height": 469,
+            "provider_metadata": {
+              "public_id": "medium_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/thumbnail_header_picture_8e0d8832c7.jpg",
+            "hash": "thumbnail_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "thumbnail_header_picture.jpg",
+            "path": null,
+            "size": 2.4,
+            "width": 245,
+            "height": 153,
+            "provider_metadata": {
+              "public_id": "thumbnail_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "header_picture_8e0d8832c7",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 37.44,
+        "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/header_picture_8e0d8832c7.jpg",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "header_picture_8e0d8832c7",
+          "resource_type": "image"
+        },
+        "createdAt": "2023-04-30T23:56:11.375Z",
+        "updatedAt": "2023-04-30T23:56:11.375Z"
+      }
+    }
+  },
+  "cv": {
+    "createdAt": "2023-05-03T23:54:52.134Z",
+    "updatedAt": "2023-05-21T22:10:54.996Z",
+    "publishedAt": "2023-05-03T23:54:54.938Z",
+    "profile_picture": {
+      "name": "PhotoVincent.jpg",
+      "alternativeText": null,
+      "caption": null,
+      "width": 150,
+      "height": 225,
+      "formats": {
+        "thumbnail": {
+          "ext": ".jpg",
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682819724/thumbnail_Photo_Vincent_63c97acf99.jpg",
+          "hash": "thumbnail_Photo_Vincent_63c97acf99",
+          "mime": "image/jpeg",
+          "name": "thumbnail_PhotoVincent.jpg",
+          "path": null,
+          "size": 3.33,
+          "width": 104,
+          "height": 156,
+          "provider_metadata": {
+            "public_id": "thumbnail_Photo_Vincent_63c97acf99",
+            "resource_type": "image"
+          }
+        }
+      },
+      "hash": "Photo_Vincent_63c97acf99",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 6.73,
+      "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682819724/Photo_Vincent_63c97acf99.jpg",
+      "previewUrl": null,
+      "provider": "cloudinary",
+      "provider_metadata": {
+        "public_id": "Photo_Vincent_63c97acf99",
+        "resource_type": "image"
+      },
+      "createdAt": "2023-04-30T01:55:25.228Z",
+      "updatedAt": "2023-05-04T14:01:21.919Z"
+    },
+    "history": {
+      "id": 2,
+      "title": "Short vita",
+      "topic": [
+        {
+          "id": 9,
+          "date": "2018-",
+          "content": "Associate Professor, School of Applied Mathematics, FGV, Rio de Janeiro.\n"
+        },
+        {
+          "id": 10,
+          "date": "2012-2018",
+          "content": "Assistant Professor, School of Applied Mathematics, FGV, Rio de Janeiro.\n"
+        },
+        {
+          "id": 11,
+          "date": "2009-2012",
+          "content": "Assistant Professor, Industrial Engineering Department, PUC-Rio, Rio de Janeiro.\n"
+        },
+        {
+          "id": 12,
+          "date": "2006-2009",
+          "content": "Postdoc, IMPA, Rio de Janeiro.\n"
+        },
+        {
+          "id": 13,
+          "date": "2005-2006",
+          "content": "Postdoc, Joseph Fourier University."
+        },
+        {
+          "id": 14,
+          "date": "2004-2005",
+          "content": "Temporary professor (ATER) at Pierre Mendes France University, Grenoble, France."
+        },
+        {
+          "id": 6,
+          "date": "2005",
+          "content": "PhD in Applied Mathematics, Joseph Fourier University, France. Title:  Statistical Inference for stochastic optimization: applications in finance and production management. Advisor: Anatoli Juditsky.\n\n"
+        },
+        {
+          "id": 7,
+          "date": "2001",
+          "content": "Master in Applied Mathematics with major in Optimization and Statistics with Highest Honors, Joseph Fourier University, France.\nDissertation: Robust portfolio management. Convex duality and semidefinite programming. Advisors: Anatoli Juditsky and Francois Oustry.\n"
+        },
+        {
+          "id": 8,
+          "date": "2001",
+          "content": "Engineering Degree in Applied Mathematics and Computer Science with High Honours from ENSIMAG, France."
+        }
+      ]
+    },
+    "section": [
+      {
+        "id": 10,
+        "title": "Presentation",
+        "text": "I am associate professor within the school of Applied Mathematics of FGV university."
+      }
+    ]
+  }
+}

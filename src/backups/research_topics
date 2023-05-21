@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": 1,
+    "attributes": {
+      "title": "Vincent Guigues",
+      "subtitle": "Researcher in optimization and statistics. Software engineer",
+      "createdAt": "2023-04-30T02:06:42.449Z",
+      "updatedAt": "2023-05-17T20:39:18.632Z",
+      "publishedAt": "2023-04-30T02:06:44.517Z",
+      "background": {
+        "name": "header_picture.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1680,
+        "height": 1050,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/large_header_picture_8e0d8832c7.jpg",
+            "hash": "large_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "large_header_picture.jpg",
+            "path": null,
+            "size": 17.19,
+            "width": 1000,
+            "height": 625,
+            "provider_metadata": {
+              "public_id": "large_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/small_header_picture_8e0d8832c7.jpg",
+            "hash": "small_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "small_header_picture.jpg",
+            "path": null,
+            "size": 6.36,
+            "width": 500,
+            "height": 313,
+            "provider_metadata": {
+              "public_id": "small_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/medium_header_picture_8e0d8832c7.jpg",
+            "hash": "medium_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "medium_header_picture.jpg",
+            "path": null,
+            "size": 11.17,
+            "width": 750,
+            "height": 469,
+            "provider_metadata": {
+              "public_id": "medium_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/thumbnail_header_picture_8e0d8832c7.jpg",
+            "hash": "thumbnail_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "thumbnail_header_picture.jpg",
+            "path": null,
+            "size": 2.4,
+            "width": 245,
+            "height": 153,
+            "provider_metadata": {
+              "public_id": "thumbnail_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "header_picture_8e0d8832c7",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 37.44,
+        "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/header_picture_8e0d8832c7.jpg",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "header_picture_8e0d8832c7",
+          "resource_type": "image"
+        },
+        "createdAt": "2023-04-30T23:56:11.375Z",
+        "updatedAt": "2023-04-30T23:56:11.375Z"
+      }
+    }
+  },
+  "research": {
+    "createdAt": "2023-05-03T23:55:52.800Z",
+    "updatedAt": "2023-05-17T20:39:08.903Z",
+    "publishedAt": "2023-05-03T23:55:59.237Z",
+    "section": [
+      {
+        "id": 15,
+        "title": "Research interests",
+        "text": "- **Mathematics and applied mathematics.**\n\nI work on the theory of optimization and on the design, analysis, and implementation of optimization algorithms for stochastic and large scale deterministic optimization problems.\nI am also interested in problems at the interface between statistics and optimization, in particular statistical inference problems for stochastic optimization.\n\nWe implemented softwares for several real-life applications in machine learning, logistics, production management (energy) and finance including hydro-thermal mid-term management, gas storage management, LNG contract pricing and management, ALM, combinatorial auction for buying books, blood bank management, location and dynamic management of fleets of ambulances. \n\n- **Software engineering.**\n\nAdvanced programming skills in C, C++, Java, Fortran, Scheme, Assembler, Ada, Matlab, R, Scilab. \nBack-end: NodeJs, REST APIs, GraphQL,.\nFront-end: React, JavaScript, d3, HTML, CSS.\nDatabase: MySQL, PostgreSQL, Oracle.\nServers: AWS, Google Cloud, Docker.\nVersion control: Github, bitbucket.\n\nLarge experience in managing projects involving mathematical modelling based on optimization and statistical techniques together with the implementation of these models using optimization (Mosek, CPLEX, Gurobi), linear algebra (LAPACK, BLAS) and statistical (R, partsm) toolboxes and integrated in user interfaces (both desktop and web)."
+      },
+      {
+        "id": 14,
+        "title": "Research topics",
+        "text": "- Statistical inference for risk measures, statistical inference for stochastic optimization.\n- Algorithms for multistage stochastic optimization.\n- Hypothesis testing based on convex optimization techniques.\n- Scenario generation.\n- Computational geometry.\n- Stochastic calculus.\n- Time series analysis.\n- Applications in production management (electricity production management, gas storage management), finance (portfolio optimization, ALM), logistics (location problems, ambulance allocation problems), engineering (aerospace industry)."
+      }
+    ]
+  }
+}

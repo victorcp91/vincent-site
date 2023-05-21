@@ -1,0 +1,1365 @@
+{
+  "main": {
+    "id": 1,
+    "attributes": {
+      "title": "Vincent Guigues",
+      "subtitle": "Researcher in optimization and statistics. Software engineer",
+      "createdAt": "2023-04-30T02:06:42.449Z",
+      "updatedAt": "2023-05-17T20:39:18.632Z",
+      "publishedAt": "2023-04-30T02:06:44.517Z",
+      "background": {
+        "name": "header_picture.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1680,
+        "height": 1050,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/large_header_picture_8e0d8832c7.jpg",
+            "hash": "large_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "large_header_picture.jpg",
+            "path": null,
+            "size": 17.19,
+            "width": 1000,
+            "height": 625,
+            "provider_metadata": {
+              "public_id": "large_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/small_header_picture_8e0d8832c7.jpg",
+            "hash": "small_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "small_header_picture.jpg",
+            "path": null,
+            "size": 6.36,
+            "width": 500,
+            "height": 313,
+            "provider_metadata": {
+              "public_id": "small_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/medium_header_picture_8e0d8832c7.jpg",
+            "hash": "medium_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "medium_header_picture.jpg",
+            "path": null,
+            "size": 11.17,
+            "width": 750,
+            "height": 469,
+            "provider_metadata": {
+              "public_id": "medium_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/thumbnail_header_picture_8e0d8832c7.jpg",
+            "hash": "thumbnail_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "thumbnail_header_picture.jpg",
+            "path": null,
+            "size": 2.4,
+            "width": 245,
+            "height": 153,
+            "provider_metadata": {
+              "public_id": "thumbnail_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "header_picture_8e0d8832c7",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 37.44,
+        "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/header_picture_8e0d8832c7.jpg",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "header_picture_8e0d8832c7",
+          "resource_type": "image"
+        },
+        "createdAt": "2023-04-30T23:56:11.375Z",
+        "updatedAt": "2023-04-30T23:56:11.375Z"
+      }
+    }
+  },
+  "preprints": [
+    {
+      "id": 4,
+      "attributes": {
+        "author": "Anton Kleywegt, Victor Hugo Nascimento, Vincent Guigues",
+        "title": "Allocation and operation of an ambulance fleet under uncertainty",
+        "year": "2022",
+        "link": null,
+        "createdAt": "2023-05-07T20:51:21.683Z",
+        "updatedAt": "2023-05-07T20:51:23.429Z",
+        "publishedAt": "2023-05-07T20:51:23.424Z",
+        "file": {
+          "name": "Location_and_operation_of_ambulance_fleets_under_uncertaintyF.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "Location_and_operation_of_ambulance_fleets_under_uncertainty_F_f40b43472f",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 833.8,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683492673/Location_and_operation_of_ambulance_fleets_under_uncertainty_F_f40b43472f.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Location_and_operation_of_ambulance_fleets_under_uncertainty_F_f40b43472f",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:51:14.109Z",
+          "updatedAt": "2023-05-07T20:51:14.109Z"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "author": "Jiaming Liang, Renato Monteiro, Vincent Guigues",
+        "title": "A single cut proximal bundle method for stochastic convex composite optimization",
+        "year": "2022",
+        "link": null,
+        "createdAt": "2023-05-07T20:53:35.584Z",
+        "updatedAt": "2023-05-07T20:53:38.704Z",
+        "publishedAt": "2023-05-07T20:53:38.699Z",
+        "file": {
+          "name": "Bundle_stochasticF.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "Bundle_stochastic_F_aabceed80e",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 502.05,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683492808/Bundle_stochastic_F_aabceed80e.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Bundle_stochastic_F_aabceed80e",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:53:28.315Z",
+          "updatedAt": "2023-05-07T20:53:28.315Z"
+        }
+      }
+    }
+  ],
+  "publications": [
+    {
+      "id": 35,
+      "attributes": {
+        "author": "Yi Cheng, Alexander Shapiro, Vincent Guigues",
+        "link": null,
+        "title": "Risk-Averse Stochastic Optimal Control: an efficiently computable statistical upper bound",
+        "year": "To appear",
+        "journal": "Operations Research Letters",
+        "pages": null,
+        "volume": null,
+        "issue": null,
+        "createdAt": "2023-05-07T20:47:53.438Z",
+        "updatedAt": "2023-05-07T20:47:55.834Z",
+        "publishedAt": "2023-05-07T20:47:55.830Z",
+        "file": {
+          "name": "SDDP_UB.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "SDDP_UB_c28a69fbbb",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 360.22,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683492460/SDDP_UB_c28a69fbbb.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "SDDP_UB_c28a69fbbb",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:47:41.136Z",
+          "updatedAt": "2023-05-07T20:47:41.136Z"
+        }
+      }
+    },
+    {
+      "id": 34,
+      "attributes": {
+        "author": "Yi Cheng, Alexander Shapiro, Vincent Guigues",
+        "link": null,
+        "title": "Duality and sensitivity analysis of multistage linear stochastic programs ",
+        "year": "2023",
+        "journal": "European journal of Operational Research",
+        "pages": "752-767",
+        "volume": "308",
+        "issue": "2",
+        "createdAt": "2023-05-07T20:44:25.128Z",
+        "updatedAt": "2023-05-07T20:44:27.154Z",
+        "publishedAt": "2023-05-07T20:44:27.149Z",
+        "file": {
+          "name": "EJOR_R3.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "EJOR_R3_1cadc3fb8e",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 1473.75,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683492228/EJOR_R3_1cadc3fb8e.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "EJOR_R3_1cadc3fb8e",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:43:48.768Z",
+          "updatedAt": "2023-05-07T20:43:48.768Z"
+        }
+      }
+    },
+    {
+      "id": 33,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "Exact computation of the CDF of the Euclidean distance between a point and a random variable uniformly distributed in disks, balls, or polyhedrons and application to PSHA ",
+        "year": "2022",
+        "journal": "International Journal of Computational Geometry and Applications ",
+        "pages": "119-174",
+        "volume": "32",
+        "issue": "3-4",
+        "createdAt": "2023-05-07T20:41:08.520Z",
+        "updatedAt": "2023-05-07T20:41:11.556Z",
+        "publishedAt": "2023-05-07T20:41:11.551Z",
+        "file": {
+          "name": "ws-ijcga.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "ws_ijcga_3c356a7624",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 1934.41,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683492052/ws_ijcga_3c356a7624.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "ws_ijcga_3c356a7624",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:40:53.440Z",
+          "updatedAt": "2023-05-07T20:40:53.440Z"
+        }
+      }
+    },
+    {
+      "id": 32,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "On the strong concavity of the dual function of an optimization problem Journal of Convex Analysis, 29(1), 247-260, 2022",
+        "year": "2022",
+        "journal": "On the strong concavity of the dual function ofJournal of Convex Analysis ",
+        "pages": "247-260",
+        "volume": "29",
+        "issue": "1",
+        "createdAt": "2023-05-07T20:37:14.072Z",
+        "updatedAt": "2023-05-07T20:37:16.887Z",
+        "publishedAt": "2023-05-07T20:37:16.881Z",
+        "file": {
+          "name": "jca2209-a (1).pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "jca2209_a_1_03a73ae39e",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 125.77,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683491829/jca2209_a_1_03a73ae39e.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "jca2209_a_1_03a73ae39e",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:37:10.243Z",
+          "updatedAt": "2023-05-07T20:37:10.243Z"
+        }
+      }
+    },
+    {
+      "id": 29,
+      "attributes": {
+        "author": "Renato Monteiro, Vincent Guigues",
+        "link": null,
+        "title": "Stochastic Dynamic Cutting Plane for multistage stochastic convex programs",
+        "year": "2021",
+        "journal": "Journal of Optimization Theory and Applications",
+        "pages": "513-559",
+        "volume": "189",
+        "issue": "2",
+        "createdAt": "2023-05-07T20:27:01.372Z",
+        "updatedAt": "2023-05-07T20:27:03.518Z",
+        "publishedAt": "2023-05-07T20:27:03.513Z",
+        "file": {
+          "name": "StoDCuP.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "Sto_D_Cu_P_1c421fd52e",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 515.03,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683491210/Sto_D_Cu_P_1c421fd52e.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Sto_D_Cu_P_1c421fd52e",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:26:51.215Z",
+          "updatedAt": "2023-05-07T20:26:51.215Z"
+        }
+      }
+    },
+    {
+      "id": 27,
+      "attributes": {
+        "author": "Michelle Bandarra, Vincent Guigues",
+        "link": null,
+        "title": "Single Cut and Multicut Stochastic Dual Dynamic Programming with Cut Selection for Multistage Stochastic Linear Programs: Convergence Proof and Numerical Experiments",
+        "year": "2021",
+        "journal": "Computational Management Science ",
+        "pages": "125-148",
+        "volume": "18",
+        "issue": "2",
+        "createdAt": "2023-05-07T20:20:56.045Z",
+        "updatedAt": "2023-05-07T20:20:58.505Z",
+        "publishedAt": "2023-05-07T20:20:58.500Z",
+        "file": {
+          "name": "CuSMuDA.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "Cu_S_Mu_DA_0b49f11e02",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 469.11,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683490850/Cu_S_Mu_DA_0b49f11e02.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Cu_S_Mu_DA_0b49f11e02",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:20:50.979Z",
+          "updatedAt": "2023-05-07T20:20:50.979Z"
+        }
+      }
+    },
+    {
+      "id": 28,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "Inexact Stochastic Mirror Descent for two-stage nonlinear stochastic programs",
+        "year": "2021",
+        "journal": "Mathematical Programming",
+        "pages": "533-577",
+        "volume": "187",
+        "issue": null,
+        "createdAt": "2023-05-07T20:22:53.901Z",
+        "updatedAt": "2023-05-07T20:22:56.101Z",
+        "publishedAt": "2023-05-07T20:22:56.092Z",
+        "file": {
+          "name": "Inexact_SMD_2_Stage_v4_Online.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "Inexact_SMD_2_Stage_v4_Online_9a7c50106c",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 1922.48,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683490968/Inexact_SMD_2_Stage_v4_Online_9a7c50106c.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Inexact_SMD_2_Stage_v4_Online_9a7c50106c",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:22:48.921Z",
+          "updatedAt": "2023-05-07T20:22:48.921Z"
+        }
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "Multistage stochastic programs with a random number of stages: dynamic programming equations, solution methods, and application to portfolio selection",
+        "year": "2021",
+        "journal": "Optimization Methods & Software ",
+        "pages": "211-236",
+        "volume": "36",
+        "issue": "1",
+        "createdAt": "2023-05-07T20:18:47.288Z",
+        "updatedAt": "2023-05-08T20:24:42.218Z",
+        "publishedAt": "2023-05-08T20:24:42.211Z",
+        "file": {
+          "name": "SDDP_T_Sto_Convex_OMS.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "SDDP_T_Sto_Convex_OMS_2680e2f447",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 651.78,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683490721/SDDP_T_Sto_Convex_OMS_2680e2f447.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "SDDP_T_Sto_Convex_OMS_2680e2f447",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:18:41.880Z",
+          "updatedAt": "2023-05-07T20:18:41.880Z"
+        }
+      }
+    },
+    {
+      "id": 31,
+      "attributes": {
+        "author": "Renato Monteiro, Benar Svaiter, Vincent Guigues",
+        "link": null,
+        "title": "Inexact cuts in SDDP applied to multistage stochastic nondifferentiable problems ",
+        "year": "2021",
+        "journal": "Siam Journal on Optimization",
+        "pages": " 31(3), 2084–2110",
+        "volume": " 31",
+        "issue": "3",
+        "createdAt": "2023-05-07T20:33:57.436Z",
+        "updatedAt": "2023-05-07T20:34:02.593Z",
+        "publishedAt": "2023-05-07T20:34:02.587Z",
+        "file": {
+          "name": "SIAM_Jan_2020.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "SIAM_Jan_2020_11b0085d45",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 574.11,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683491630/SIAM_Jan_2020_11b0085d45.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "SIAM_Jan_2020_11b0085d45",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:33:50.595Z",
+          "updatedAt": "2023-05-07T20:33:50.595Z"
+        }
+      }
+    },
+    {
+      "id": 30,
+      "attributes": {
+        "author": "Anatoli Juditsky, Arkadi Nemirovski, Vincent Guigues",
+        "link": null,
+        "title": "Constant Depth Decision Rules for multistage optimization under uncertainty  ",
+        "year": "2021",
+        "journal": "European Journal of Operational Research",
+        "pages": "223-232",
+        "volume": "295",
+        "issue": "1",
+        "createdAt": "2023-05-07T20:31:39.701Z",
+        "updatedAt": "2023-05-07T20:31:44.107Z",
+        "publishedAt": "2023-05-07T20:31:44.101Z",
+        "file": {
+          "name": "CDDR_Second_Revision.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "CDDR_Second_Revision_08a732951c",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 425.04,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683491431/CDDR_Second_Revision_08a732951c.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "CDDR_Second_Revision_08a732951c",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:30:31.808Z",
+          "updatedAt": "2023-05-07T20:30:31.808Z"
+        }
+      }
+    },
+    {
+      "id": 23,
+      "attributes": {
+        "author": "Anatoli Juditsky, Arkadi Nemirovski, Vincent Guigues",
+        "link": null,
+        "title": "Hypothesis Testing via Euclidean Separation ",
+        "year": "2020",
+        "journal": "Annales de l'Institut Henri Poincare",
+        "pages": "1929-1957",
+        "volume": "56",
+        "issue": "3",
+        "createdAt": "2023-05-07T19:59:01.836Z",
+        "updatedAt": "2023-05-07T19:59:04.486Z",
+        "publishedAt": "2023-05-07T19:59:04.482Z",
+        "file": {
+          "name": "student-Submitted_Revised.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "student_Submitted_Revised_8495fcbb70",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 731.52,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683489519/student_Submitted_Revised_8495fcbb70.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "student_Submitted_Revised_8495fcbb70",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:58:40.087Z",
+          "updatedAt": "2023-05-07T19:58:40.087Z"
+        }
+      }
+    },
+    {
+      "id": 24,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "Inexact cuts in Stochastic Dual Dynamic Programming ",
+        "year": "2020",
+        "journal": "Siam Journal on Optimization",
+        "pages": "407-438",
+        "volume": "30",
+        "issue": "1",
+        "createdAt": "2023-05-07T20:01:54.948Z",
+        "updatedAt": "2023-05-07T20:01:56.992Z",
+        "publishedAt": "2023-05-07T20:01:56.985Z",
+        "file": {
+          "name": "SIAM-06-2019.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "SIAM_06_2019_5b087b8125",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 869.91,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683489706/SIAM_06_2019_5b087b8125.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "SIAM_06_2019_5b087b8125",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:01:46.798Z",
+          "updatedAt": "2023-05-07T20:01:46.798Z"
+        }
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "author": "Miguel Lejeune, Wajdi Tekaya, Vincent Guigues",
+        "link": null,
+        "title": "Regularized Stochastic Dual Dynamic Programming for convex nonlinear optimization problems ",
+        "year": "2020",
+        "journal": "Optimization and Engineering ",
+        "pages": "1133-1165",
+        "volume": "21",
+        "issue": "3",
+        "createdAt": "2023-05-07T20:15:42.811Z",
+        "updatedAt": "2023-05-07T20:15:44.705Z",
+        "publishedAt": "2023-05-07T20:15:44.698Z",
+        "file": {
+          "name": "5815.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "5815_05bf8890d3",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 794.1,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683490537/5815_05bf8890d3.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "5815_05bf8890d3",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T20:15:37.599Z",
+          "updatedAt": "2023-05-07T20:15:37.599Z"
+        }
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "author": "Yang Cao , Anatoli  Juditsky, Arkadi Nemirovski, Yao Xie, Vincent Guigues",
+        "link": null,
+        "title": "Change Detection via Affine and Quadratic Detectors, http://dx.doi.org/10.1214/17-EJS1373 (open access)",
+        "year": "2018",
+        "journal": "Electronic Journal of Statistics ",
+        "pages": "1-57",
+        "volume": "12",
+        "issue": "1",
+        "createdAt": "2023-05-07T19:52:20.338Z",
+        "updatedAt": "2023-05-16T22:40:43.402Z",
+        "publishedAt": "2023-05-07T19:52:22.180Z",
+        "file": {
+          "name": "euclid.ejs.1514970025.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "euclid_ejs_1514970025_7e87d5acd6",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 848.17,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683489133/euclid_ejs_1514970025_7e87d5acd6.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "euclid_ejs_1514970025_7e87d5acd6",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:52:14.109Z",
+          "updatedAt": "2023-05-07T19:52:14.109Z"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "attributes": {
+        "author": "Volker Kratschmer, Alexander Shapiro, Vincent Guigues",
+        "link": null,
+        "title": "Statistical inference and hypotheses testing of risk averse stochastic programs",
+        "year": "2018",
+        "journal": "Siam Journal on Optimization",
+        "pages": "1337-1366",
+        "volume": "28",
+        "issue": "2",
+        "createdAt": "2023-05-07T19:55:56.579Z",
+        "updatedAt": "2023-05-08T20:31:04.340Z",
+        "publishedAt": "2023-05-07T19:55:59.409Z",
+        "file": {
+          "name": "M110463-1.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "M110463_1_3bf8752681",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 739.08,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683489350/M110463_1_3bf8752681.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "M110463_1_3bf8752681",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:55:50.378Z",
+          "updatedAt": "2023-05-07T19:55:50.378Z"
+        }
+      }
+    },
+    {
+      "id": 18,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "Multistep stochastic mirror descent for risk-averse convex stochastic programs based on extended polyhedral risk measures ",
+        "year": "2017",
+        "journal": "Mathematical Programming",
+        "pages": "169-212",
+        "volume": "163",
+        "issue": null,
+        "createdAt": "2023-05-07T19:42:47.956Z",
+        "updatedAt": "2023-05-07T19:42:51.568Z",
+        "publishedAt": "2023-05-07T19:42:51.563Z",
+        "file": {
+          "name": "Multi_Step_Stochastic_Mirror_Descent_Revised_1.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "Multi_Step_Stochastic_Mirror_Descent_Revised_1_5456389af2",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 666.76,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683488531/Multi_Step_Stochastic_Mirror_Descent_Revised_1_5456389af2.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Multi_Step_Stochastic_Mirror_Descent_Revised_1_5456389af2",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:42:12.116Z",
+          "updatedAt": "2023-05-07T19:42:12.116Z"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "Dual Dynamic Programing with cut selection: Convergence proof and numerical experiments, {\\textit{European Journal of Operational Research, ",
+        "year": "2017",
+        "journal": "European Journal of Operational Research",
+        "pages": "47-57",
+        "volume": "258",
+        "issue": null,
+        "createdAt": "2023-05-07T19:44:39.228Z",
+        "updatedAt": "2023-05-16T22:41:14.315Z",
+        "publishedAt": "2023-05-08T20:24:21.897Z",
+        "file": {
+          "name": "Convergence_Cut_Selection_DDP_07_16.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "Convergence_Cut_Selection_DDP_07_16_07c6b995ac",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 801.03,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683488672/Convergence_Cut_Selection_DDP_07_16_07c6b995ac.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Convergence_Cut_Selection_DDP_07_16_07c6b995ac",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:44:33.354Z",
+          "updatedAt": "2023-05-07T19:44:33.354Z"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "author": "Anatoli Juditsky, Arkadi Nemirovski, Vincent Guigues",
+        "link": null,
+        "title": "Non-asymptotic confidence bounds for the optimal value of a stochastic program",
+        "year": "2017",
+        "journal": "Optimization Methods & Software, paper winner of the Charles Broyden prize in 2018",
+        "pages": "1033-1058",
+        "volume": "32",
+        "issue": "5",
+        "createdAt": "2023-05-07T19:48:31.721Z",
+        "updatedAt": "2023-05-07T20:16:01.514Z",
+        "publishedAt": "2023-05-07T19:48:33.532Z",
+        "file": {
+          "name": "NACB.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "NACB_a331ad10a0",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 590.67,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683488905/NACB_a331ad10a0.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "NACB_a331ad10a0",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:48:25.548Z",
+          "updatedAt": "2023-05-07T19:48:25.548Z"
+        }
+      }
+    },
+    {
+      "id": 17,
+      "attributes": {
+        "author": "Rene Henrion, Vincent Guigues",
+        "link": null,
+        "title": "Joint dynamic probabilistic constraints with projected linear decision rules ",
+        "year": "2017",
+        "journal": "Optimization Methods & Software",
+        "pages": "1006-1032",
+        "volume": "32",
+        "issue": "5",
+        "createdAt": "2023-05-07T19:40:27.304Z",
+        "updatedAt": "2023-05-07T19:40:29.665Z",
+        "publishedAt": "2023-05-07T19:40:29.660Z",
+        "file": {
+          "name": "DJCC_last.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "DJCC_last_f2f0ec69e4",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 427.98,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683488416/DJCC_last_f2f0ec69e4.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "DJCC_last_f2f0ec69e4",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:40:16.418Z",
+          "updatedAt": "2023-05-07T19:40:16.418Z"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "Convergence Analysis of Sampling-Based Decomposition Methods for Risk-Averse Multistage Stochastic Convex Programs",
+        "year": "2016",
+        "journal": "Siam Journal on Optimization ",
+        "pages": "2468-2494",
+        "volume": "26",
+        "issue": null,
+        "createdAt": "2023-05-07T19:38:21.051Z",
+        "updatedAt": "2023-05-08T20:25:09.963Z",
+        "publishedAt": "2023-05-08T20:25:09.954Z",
+        "file": {
+          "name": "Convergence_RiskAverse_SDDP_Convex.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "Convergence_Risk_Averse_SDDP_Convex_65421843a8",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 391.62,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683488295/Convergence_Risk_Averse_SDDP_Convex_65421843a8.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Convergence_Risk_Averse_SDDP_Convex_65421843a8",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:38:15.586Z",
+          "updatedAt": "2023-05-07T19:38:15.586Z"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "attributes": {
+        "author": "Jorge Zubelli, Claudia Sagastizabal, Vincent Guigues",
+        "link": null,
+        "title": "Robust Management and Pricing of Liquefied Natural Gas Contracts with Cancelation Options",
+        "year": "2014",
+        "journal": "Journal of Optimization Theory and Applications ",
+        "pages": "179-198",
+        "volume": "161",
+        "issue": "1",
+        "createdAt": "2023-05-07T19:33:15.596Z",
+        "updatedAt": "2023-05-07T19:33:17.796Z",
+        "publishedAt": "2023-05-07T19:33:17.790Z",
+        "file": {
+          "name": "JOTA2012.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "JOTA_2012_f043dbf67e",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 1501.12,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683487988/JOTA_2012_f043dbf67e.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "JOTA_2012_f043dbf67e",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:33:09.277Z",
+          "updatedAt": "2023-05-07T19:33:09.277Z"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "SDDP for some interstage dependent risk-averse problems and application to hydro-thermal planning ",
+        "year": "2014",
+        "journal": "Computational Optimization and Applications ",
+        "pages": "167-203 ",
+        "volume": "57",
+        "issue": "1",
+        "createdAt": "2023-05-07T19:35:42.814Z",
+        "updatedAt": "2023-05-08T20:24:30.905Z",
+        "publishedAt": "2023-05-08T20:24:30.899Z",
+        "file": {
+          "name": "RA_SDDP.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "RA_SDDP_9a137858db",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 370.43,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683488138/RA_SDDP_9a137858db.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "RA_SDDP_9a137858db",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:35:38.408Z",
+          "updatedAt": "2023-05-07T19:35:38.408Z"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "attributes": {
+        "author": "Claudia Sagastizabal, Vincent Guigues",
+        "link": null,
+        "title": "Risk-averse feasible policies for large-scale multistage stochastic linear programs",
+        "year": "2013",
+        "journal": "Mathematical Programming  ",
+        "pages": "167-198",
+        "volume": "138",
+        "issue": null,
+        "createdAt": "2023-05-07T19:28:41.231Z",
+        "updatedAt": "2023-05-07T19:30:15.242Z",
+        "publishedAt": "2023-05-07T19:30:15.236Z",
+        "file": {
+          "name": "dRA.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "d_RA_2ce9cda76b",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 984.89,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683487805/d_RA_2ce9cda76b.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "d_RA_2ce9cda76b",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:30:05.747Z",
+          "updatedAt": "2023-05-07T19:30:05.747Z"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "Nonparametric multivariate breakpoint detection for the means, variances, and covariances of a discrete time stochastic process ",
+        "year": "2012",
+        "journal": "Journal of Nonparametric Statistics",
+        "pages": "857-882",
+        "volume": "24",
+        "issue": null,
+        "createdAt": "2023-05-07T18:43:48.425Z",
+        "updatedAt": "2023-05-07T18:43:51.830Z",
+        "publishedAt": "2023-05-07T18:43:51.823Z",
+        "file": {
+          "name": "Adaptive_Breakpoint.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "Adaptive_Breakpoint_32155c6a69",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 445.82,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683485022/Adaptive_Breakpoint_32155c6a69.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Adaptive_Breakpoint_32155c6a69",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T18:43:43.386Z",
+          "updatedAt": "2023-05-07T18:43:43.386Z"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "author": "Werner Romisch, Vincent Guigues",
+        "link": null,
+        "title": "SDDP for multistage stochastic linear programs based on spectral risk measures",
+        "year": "2012",
+        "journal": "Operations Research Letters ",
+        "pages": "313-318",
+        "volume": "40",
+        "issue": null,
+        "createdAt": "2023-05-07T19:11:59.356Z",
+        "updatedAt": "2023-05-08T20:30:14.081Z",
+        "publishedAt": "2023-05-07T19:12:04.053Z",
+        "file": {
+          "name": "SDDP_Spectral.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "SDDP_Spectral_a59514668a",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 165.96,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683486710/SDDP_Spectral_a59514668a.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "SDDP_Spectral_a59514668a",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:11:51.193Z",
+          "updatedAt": "2023-05-07T19:11:51.193Z"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "author": "Claudia Sagastizabal, Vincent Guigues",
+        "link": null,
+        "title": "Exploiting the structure of autoregressive processes in chance-constrained multistage stochastic linear programs ",
+        "year": "2012",
+        "journal": "Operations Research Letters",
+        "pages": "478-483",
+        "volume": "40",
+        "issue": null,
+        "createdAt": "2023-05-07T19:09:07.754Z",
+        "updatedAt": "2023-05-07T19:09:09.942Z",
+        "publishedAt": "2023-05-07T19:09:09.937Z",
+        "file": {
+          "name": "dGAR.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "d_GAR_9a161a2ad9",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 153.23,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683486535/d_GAR_9a161a2ad9.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "d_GAR_9a161a2ad9",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:08:55.563Z",
+          "updatedAt": "2023-05-07T19:08:55.563Z"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "author": "Werner Romisch, Vincent Guigues",
+        "link": null,
+        "title": "Sampling-Based Decomposition Methods for Multistage Stochastic Programs Based on Extended Polyhedral Risk Measures ",
+        "year": "2012",
+        "journal": "SIAM Journal on Optimization",
+        "pages": "286-312",
+        "volume": "22",
+        "issue": null,
+        "createdAt": "2023-05-07T19:15:57.744Z",
+        "updatedAt": "2023-05-07T19:16:00.369Z",
+        "publishedAt": "2023-05-07T19:16:00.362Z",
+        "file": {
+          "name": "SDDP_Risk_Averse.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "SDDP_Risk_Averse_2761774d20",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 467.65,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683486945/SDDP_Risk_Averse_2761774d20.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "SDDP_Risk_Averse_2761774d20",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:15:45.874Z",
+          "updatedAt": "2023-05-07T19:15:45.874Z"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "author": "Claudia Sagastizabal, Vincent Guigues",
+        "link": null,
+        "title": "The value of rolling-horizon policies for risk-averse hydro-thermal planning ",
+        "year": "2012",
+        "journal": "European Journal of Operational Research",
+        "pages": "129-140",
+        "volume": "217",
+        "issue": null,
+        "createdAt": "2023-05-07T19:26:53.625Z",
+        "updatedAt": "2023-05-08T20:24:09.749Z",
+        "publishedAt": "2023-05-08T20:24:09.741Z",
+        "file": {
+          "name": "dValueRH.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "d_Value_RH_69bf27cb26",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 341.64,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683487607/d_Value_RH_69bf27cb26.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "d_Value_RH_69bf27cb26",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:26:47.908Z",
+          "updatedAt": "2023-05-07T19:26:47.908Z"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "A stabilized model and an efficient solution method for the yearly optimal power management",
+        "year": "2011",
+        "journal": "Optimization Methods & Software",
+        "pages": "67-88",
+        "volume": "26",
+        "issue": null,
+        "createdAt": "2023-05-07T18:40:23.291Z",
+        "updatedAt": "2023-05-07T18:40:25.645Z",
+        "publishedAt": "2023-05-07T18:40:25.639Z",
+        "file": null
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "Sensitivity analysis and calibration of the covariance matrix for stable portfolio selection",
+        "year": "2011",
+        "journal": "Computational Optimization and Applications",
+        "pages": "553-579",
+        "volume": "48",
+        "issue": null,
+        "createdAt": "2023-05-07T18:36:03.003Z",
+        "updatedAt": "2023-05-07T18:44:24.665Z",
+        "publishedAt": "2023-05-07T18:36:05.188Z",
+        "file": {
+          "name": "COAP9260.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "COAP_9260_83bd762aed",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 717.44,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683484554/COAP_9260_83bd762aed.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "COAP_9260_83bd762aed",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T18:35:55.332Z",
+          "updatedAt": "2023-05-07T18:35:55.332Z"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "author": "Rene Aid, Pape Momar Ndiaye, Francois Oustry, Francois Romanet, Vincent Guigues",
+        "link": null,
+        "title": "Robust mid-term power generation management",
+        "year": "2009",
+        "journal": "Optimization",
+        "pages": "351-371",
+        "volume": "58",
+        "issue": null,
+        "createdAt": "2023-05-07T18:32:00.933Z",
+        "updatedAt": "2023-05-07T18:37:22.112Z",
+        "publishedAt": "2023-05-07T18:32:03.878Z",
+        "file": {
+          "name": "Robust_Power_Generation_Final.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "Robust_Power_Generation_Final_e632bd1edd",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 311.25,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683484636/Robust_Power_Generation_Final_e632bd1edd.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Robust_Power_Generation_Final_e632bd1edd",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T18:37:17.170Z",
+          "updatedAt": "2023-05-07T18:37:17.170Z"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "Robust production management",
+        "year": "2009",
+        "journal": "Optimization and Engineering",
+        "pages": "505-532",
+        "volume": "10",
+        "issue": null,
+        "createdAt": "2023-05-07T17:44:42.422Z",
+        "updatedAt": "2023-05-07T19:23:55.330Z",
+        "publishedAt": "2023-05-07T17:44:44.392Z",
+        "file": {
+          "name": "cra.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "cra_4c6830efd5",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 316.84,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683487429/cra_4c6830efd5.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "cra_4c6830efd5",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T19:23:50.130Z",
+          "updatedAt": "2023-05-07T19:23:50.130Z"
+        }
+      }
+    },
+    {
+      "id": 1,
+      "attributes": {
+        "author": "Vincent Guigues",
+        "link": null,
+        "title": "Mean and covariance matrix adaptive estimation for a weakly stationary process, Application in stochastic optimization",
+        "year": "2008",
+        "journal": "Statistics & Decisions",
+        "pages": "109-143 ",
+        "volume": "26",
+        "issue": null,
+        "createdAt": "2023-04-30T21:41:09.640Z",
+        "updatedAt": "2023-05-08T20:29:23.042Z",
+        "publishedAt": "2023-04-30T21:41:43.278Z",
+        "file": {
+          "name": "stnd.2008.pdf",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "stnd_2008_e7bb056632",
+          "ext": ".pdf",
+          "mime": "application/pdf",
+          "size": 667.37,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1683476615/stnd_2008_e7bb056632.pdf",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "stnd_2008_e7bb056632",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-05-07T16:23:35.606Z",
+          "updatedAt": "2023-05-07T16:23:35.606Z"
+        }
+      }
+    }
+  ]
+}

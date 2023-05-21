@@ -1,0 +1,148 @@
+{
+  "pageProps": {
+    "main": {
+      "id": 1,
+      "attributes": {
+        "title": "Vincent Guigues",
+        "subtitle": "Researcher in optimization and statistics. Software engineer",
+        "createdAt": "2023-04-30T02:06:42.449Z",
+        "updatedAt": "2023-05-17T20:39:18.632Z",
+        "publishedAt": "2023-04-30T02:06:44.517Z",
+        "background": {
+          "name": "header_picture.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1680,
+          "height": 1050,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/large_header_picture_8e0d8832c7.jpg",
+              "hash": "large_header_picture_8e0d8832c7",
+              "mime": "image/jpeg",
+              "name": "large_header_picture.jpg",
+              "path": null,
+              "size": 17.19,
+              "width": 1000,
+              "height": 625,
+              "provider_metadata": {
+                "public_id": "large_header_picture_8e0d8832c7",
+                "resource_type": "image"
+              }
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/small_header_picture_8e0d8832c7.jpg",
+              "hash": "small_header_picture_8e0d8832c7",
+              "mime": "image/jpeg",
+              "name": "small_header_picture.jpg",
+              "path": null,
+              "size": 6.36,
+              "width": 500,
+              "height": 313,
+              "provider_metadata": {
+                "public_id": "small_header_picture_8e0d8832c7",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/medium_header_picture_8e0d8832c7.jpg",
+              "hash": "medium_header_picture_8e0d8832c7",
+              "mime": "image/jpeg",
+              "name": "medium_header_picture.jpg",
+              "path": null,
+              "size": 11.17,
+              "width": 750,
+              "height": 469,
+              "provider_metadata": {
+                "public_id": "medium_header_picture_8e0d8832c7",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/thumbnail_header_picture_8e0d8832c7.jpg",
+              "hash": "thumbnail_header_picture_8e0d8832c7",
+              "mime": "image/jpeg",
+              "name": "thumbnail_header_picture.jpg",
+              "path": null,
+              "size": 2.4,
+              "width": 245,
+              "height": 153,
+              "provider_metadata": {
+                "public_id": "thumbnail_header_picture_8e0d8832c7",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "header_picture_8e0d8832c7",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 37.44,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/header_picture_8e0d8832c7.jpg",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "header_picture_8e0d8832c7",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-04-30T23:56:11.375Z",
+          "updatedAt": "2023-04-30T23:56:11.375Z"
+        }
+      }
+    },
+    "home": {
+      "id": 1,
+      "attributes": {
+        "about": "I am associate professor within the school of Applied Mathematics of FGV university. I work on the theory of optimization (both deterministic and stochastic) and in statistics. I also work on real-life applications which need optimization and statistical techniques. Often such applications also bring interesting theoretical questions. The most challenging such application I have been working on is the development of a chain of softwares for the management of emergency calls and of a fleet of ambulances. More details on this project can be found in the Projects menu.",
+        "email": "vincent.guigues@gmail.com",
+        "phone": "+55 21 3799-6093",
+        "address": "Office 523, 190 Praia de Botafogo - Botafogo, Rio de Janeiro",
+        "phone_link": "tel:+55-21-3799-6093",
+        "address_link": "https://goo.gl/maps/eenqBPgSgEwuCEa76",
+        "createdAt": "2023-04-30T01:57:59.925Z",
+        "updatedAt": "2023-05-17T20:49:35.497Z",
+        "publishedAt": "2023-04-30T01:58:06.209Z",
+        "profile_picture": {
+          "name": "PhotoVincent.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 150,
+          "height": 225,
+          "formats": {
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682819724/thumbnail_Photo_Vincent_63c97acf99.jpg",
+              "hash": "thumbnail_Photo_Vincent_63c97acf99",
+              "mime": "image/jpeg",
+              "name": "thumbnail_PhotoVincent.jpg",
+              "path": null,
+              "size": 3.33,
+              "width": 104,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_Photo_Vincent_63c97acf99",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "Photo_Vincent_63c97acf99",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 6.73,
+          "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682819724/Photo_Vincent_63c97acf99.jpg",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Photo_Vincent_63c97acf99",
+            "resource_type": "image"
+          },
+          "createdAt": "2023-04-30T01:55:25.228Z",
+          "updatedAt": "2023-05-04T14:01:21.919Z"
+        }
+      }
+    }
+  },
+  "__N_SSP": true
+}

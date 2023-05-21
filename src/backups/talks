@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": 1,
+    "attributes": {
+      "title": "Vincent Guigues",
+      "subtitle": "Researcher in optimization and statistics. Software engineer",
+      "createdAt": "2023-04-30T02:06:42.449Z",
+      "updatedAt": "2023-05-17T20:39:18.632Z",
+      "publishedAt": "2023-04-30T02:06:44.517Z",
+      "background": {
+        "name": "header_picture.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1680,
+        "height": 1050,
+        "formats": {
+          "large": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/large_header_picture_8e0d8832c7.jpg",
+            "hash": "large_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "large_header_picture.jpg",
+            "path": null,
+            "size": 17.19,
+            "width": 1000,
+            "height": 625,
+            "provider_metadata": {
+              "public_id": "large_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/small_header_picture_8e0d8832c7.jpg",
+            "hash": "small_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "small_header_picture.jpg",
+            "path": null,
+            "size": 6.36,
+            "width": 500,
+            "height": 313,
+            "provider_metadata": {
+              "public_id": "small_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/medium_header_picture_8e0d8832c7.jpg",
+            "hash": "medium_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "medium_header_picture.jpg",
+            "path": null,
+            "size": 11.17,
+            "width": 750,
+            "height": 469,
+            "provider_metadata": {
+              "public_id": "medium_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".jpg",
+            "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/thumbnail_header_picture_8e0d8832c7.jpg",
+            "hash": "thumbnail_header_picture_8e0d8832c7",
+            "mime": "image/jpeg",
+            "name": "thumbnail_header_picture.jpg",
+            "path": null,
+            "size": 2.4,
+            "width": 245,
+            "height": 153,
+            "provider_metadata": {
+              "public_id": "thumbnail_header_picture_8e0d8832c7",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "header_picture_8e0d8832c7",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 37.44,
+        "url": "https://res.cloudinary.com/dbytnnhkz/image/upload/v1682898970/header_picture_8e0d8832c7.jpg",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "header_picture_8e0d8832c7",
+          "resource_type": "image"
+        },
+        "createdAt": "2023-04-30T23:56:11.375Z",
+        "updatedAt": "2023-04-30T23:56:11.375Z"
+      }
+    }
+  },
+  "talks": {
+    "createdAt": "2023-05-03T23:56:30.102Z",
+    "updatedAt": "2023-05-17T21:00:44.234Z",
+    "publishedAt": "2023-05-03T23:56:32.957Z",
+    "section": [
+      {
+        "id": 17,
+        "title": "Talks",
+        "text": "- Constant Depth Decision Rules, LACIAM, Rio de Janeiro, Brazil, 2023. \n- Constant Depth Decision Rules, SICO 2022, Autrans, France, 2022. \n- Semi-plenary talk \"Some recent advances on solution methods for stochastic dynamic programming equations\" at the Internation Conference on Stochastic Programming, Trondheim, Norway, 2019.\n- Some recent advances on solution methods for stochastic dynamic programming equations, Workshop on algorithms for stochastic optimization programs applied in the energy sector, FGV, Rio de Janeiro, Brazil, 2019.\n- Multistage Stochastic Convex Programs with a Random Number of Stages: Modelling and Solution Methods.\nXIV International Conference on Stochastic Programming, Buzios, Brazil, 2016.\n- Convergence of risk-averse decomposition methods for multistage stochastic convex programs.  22nd International Symposium on Mathematical Programming, Pittsburgh, USA, 2015.\n- Risk-averse mirror descent for convex and uniformly convex stochastic programs with applications to hypotheses testing of risk measures. X Brazilian Workshop on Continuous Optimization, Florionopolis, Brazil, 2014.\n- Joint dynamic chance constraints with projected linear decision rules. XIII International Conference on Stochastic Programming, Bergamo, Italy, 2013.\n- Joint dynamic chance constraints with linear decision rules. Workshop on Stochastic Optimization organized by B. Pagnoncelli and T. Homem-de-Mello, Vina del Mar, 2013.\n- SDDP for multistage stochastic programs based on extended polyhedral risk measures. 21st International Symposium on Mathematical Programming, Berlin, Germany, 2012. \n- The value of rolling horizon policies for risk-averse hydro thermal planning. Siam Conference on Optimization, Darmsdtadt, Germany, 2011.\n- A Robust Approach to Handle Risk Contraints in Long and Mid-term Energy Planning of Hydro-thermal Systems, Mathematics and Finance: Research in Options, Buzios, Brazil, 2007.\n- SDDP for stochastic programs based on extended polyhedral risk measures. XII International Conference on Stochastic Programming, Halifax, Canada, 2010.\n- Robust electricity generation management. International workshop on optimization frameworks for industrial applications, Paris, France, 2005.\n- Large-scale resource allocation problem: when dimension does not spell disaster. 25th European Meeting of Statisticians, Oslo, Norway, 2005.\n- Operation of an ambulance fleet under uncertainty. 2023 IISE Annual Conference, New Orleans, USA, 2023.\n- Joint dynamic chance constraints with linear decision rules for some multistage stochastic programs.  IX Brazilian Workshop on Continuous Optimization, Luis Correia, Brazil, 2012.\n- Pricing of LNG contracts with cancellation options. International Conference on Computational Management Science, Vienna, Austria, 2010.\n- SDDP for stochastic programs based on extended polyhedral risk measures. International Conference on Continuous Optimization (ICCOPT), Santiago, Chile, 2010.\n- Risk-averse adaptive strategies for large-scale multistage stochastic linear programming, VIII Brazilian Workshop on Continuous Optimization, Mambucaba, Brazil, 2009.\n- A Robust Approach to Handle Risk Contraints in Long and Mid-term Energy Planning of Hydro-thermal Systems. International Conference on Engineering Optimization, Rio de Janeiro, Brazil, 2008.\n- Statistical inference for stochastic optimization. Journ\\'ees de statistique math\\'ematique de Luminy, France, 2005.\n- Application of Robust Counterpart Techniques to Production Management. 18th International Symposium on Mathematical Programming, Copenhagen, Denmark, 2003.\n- Application of Robust Counterpart Techniques to Production Management. Annual International Conference of the German Operations Research Society, University of Heidelberg, 2003.\n- Calibration of the covariance matrix in finance for stable and robust portfolio selection. Aegean Conferences, 4th International Conference on Frontiers on Global Optimization, Santorini, Greece, 2003.\n- Constant Depth Decision Rules, Optimization seminar, LMA, Avignon, France, 2022. \n- Constant Depth Decision Rules, Online Brazilian seminar of continuous optimization, 2020. \n- Some recent advances on solution methods for stochastic dynamic programming equations, workshop Stochastic Programming models and algorithms for energy planning, Rio de Janeiro, FGV, 2019.\n- Inexact cuts for value functions of convex optimization problems, optimization seminar, Georges Washington University, Washington DC, USA, 2018.\n- Inexact cuts for value functions of convex optimization problems, FGV-EMAp seminar, FGV, Rio de Janeiro, Brazil, 2018.\n- Multistage stochastic programs with a random number of stages: dynamic programming equations and solution methods, Optimization workshop (department of mathematics), UFRJ, Rio de Janeiro, Brazil, 2018.  \n- Modelling in Applied Mathematics: steps and examples. Divulgation seminar for high school students, Pedro II high school (Humaita campus), Rio de Janeiro, Brazil, 2017.\n- Modelling in Applied Mathematics: steps and examples. Divulgation seminar for high school students, CEFET high school, Rio de Janeiro (Maracana Campus), Brazil, 2017.\n- Hypothesis testing using Euclidean separation. Statistics seminar, department of statistics, UFRJ, Rio de Janeiro, Brazil, 2017.\n- Hypothesis testing via Euclidean separation. Optimization seminar, WIAS, Berlin, Germany, 2017. \n- Inexact Dual Dynamic Programming. Optimization seminar, UFSC, Florian\\'opolis, Brazil, 2016.\n- Modelling in Applied Mathematics. Divulgation seminar for high school students, Pedro II high school (Humaita campus), Rio de Janeiro, Brazil, 2015. \n- Hypotheses testing on the optimal values of several risk-neutral or risk-averse convex stochastic programs and application to hypotheses testing on several risk measure values. Statistics seminar, University of Vienna, Austria, 2015.\n- Convergence analysis of sampling-based decomposition methods for risk-averse multi-stage stochastic convex programs. Optimization seminar, Humboldt University, Berlin, Germany, 2015.\n- Risk-averse stochastic optimization and applications to hypothesis testing. Optimization seminar, UFBA, Salvador, Bahia, 2013.\n- Joint dynamic chance constraints with projected linear decision rules. Workshop on Optimization and Statistics, School of Applied Mathematics/FGV, Rio de Janeiro, Brazil, 2013.\n- Risk-averse multistage stochastic optimization. Seminar of the School of Applied Mathematics/FGV, Rio de Janeiro, Brazil, 2012.\n- Risk-averse modellings for multistage stochastic optimization. Optimization seminar, Humboldt University, Berlin, Germany, 2010.\n- Sensitivity analysis and calibration of the covariance matrix for stable portfolio selection. Optimization seminar, Humboldt University, Berlin, Germany, 2010.\n- Sensitivity analysis and calibration of the covariance matrix for stable portfolio selection. IMPA, Rio de Janeiro, Brazil, 2009.\n- Risk-averse stochastic dual dynamic programming. IMPA optimization seminar, Rio de Janeiro, Brazil, 2008.\n- Stable portfolio selection.  IMPA analysis seminar, Rio de Janeiro, Brazil, 2007.\n- Stochastic optimization with spectral risk measures. IMPA optimization seminar, Rio de Janeiro, Brazil, 2007.\n- Robust adaptive strategies for stochastic linear optimization problems. IMPA optimization seminar, Rio de Janeiro, Brazil, 2007.\n- Adjustable robust counterparts and application to electricity production management. IMPA optimization seminar, Rio de Janeiro, Brazil, 2007.\n- Short course (3 days) on robust optimization. Lectures given to PhD students in Pergamino, Argentina, 2007.\n- Statistical inference for stochastic optimization. Seminar of Statistics, LJK, Grenoble, France, 2003.\n- Calibration of the covariance matrix. Statistics seminar, INRIA, Grenoble, France, 2001. \n- Lectures on stochastic and robust optimization at GDF R\\&D Department, France, 2001."
+      }
+    ]
+  }
+}
