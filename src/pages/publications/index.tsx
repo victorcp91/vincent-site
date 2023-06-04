@@ -10,60 +10,73 @@ interface IPublications {
   }
 
 export default function publications({ preprints, publications}: IPublications) {
-  return (
-    <>
-        <Head>
-            <title>Vincent Guigues | Publications</title>
-            <meta name="description" content="Page containing publications by Vincent Guigues"/>
-        </Head>
-        <main className="px-10 w-full max-w-2xl m-auto">
-            <section>
-                <h2>Preprints</h2>
-                <ul>
-                    {preprints.map(p => (
-                        <li key={p.id} className="mb-10">
-                            <div className="font-semibold [&>span]:font-normal">{p.attributes.title}
-                                <span> {!!p.attributes.year && `(${p.attributes.year})`}</span>
-                                {!!p.attributes.file?.url && 
-                                    <span> [<a href={p.attributes.file.url} target="_blank">view</a>]</span>
-                                }
-                            </div>
-                            <div>{p.attributes.author}</div>
-                            {!p.attributes.file?.url && p.attributes.link && 
-                                <span> [<a href={p.attributes.link} target="_blank">view</a>]</span>
-                            }
-                        </li>
-                    ))}
-                </ul>
-            </section>
-            <hr />
-            <section>
-                <h2>Publications</h2>
-                <ul>
-                    {publications.map(p => (
-                        <li key={p.id} className="mb-10">
-                            <div className="font-semibold [&>span]:font-normal">{p.attributes.title}
-                                <span> {!!p.attributes.year && `(${p.attributes.year})`}</span>
-                                {!!p.attributes.file?.url &&
-                                <span> [<a className="text-blue-600" href={p.attributes.file.url} target="_blank">view</a>]</span>
-                                }
+
+    const getDetails = (p: IPublication): string => {
+        const details: string[] = [];
+        if (p.attributes.pages){
+            details.push(`Pages: ${p.attributes.pages}`)
+        }
+        if(p.attributes.issue){
+            details.push(`Issue: ${p.attributes.issue}`)
+        }
+        if(p.attributes.volume){
+            details.push(`Volume: ${p.attributes.volume}`)
+        }
+        return details.join(', ')
+    }
+
+    return (
+        <>
+            <Head>
+                <title>Vincent Guigues | Publications</title>
+                <meta name="description" content="Page containing publications by Vincent Guigues"/>
+            </Head>
+            <main className="px-10 w-full max-w-2xl m-auto">
+                <section>
+                    <h2>Preprints</h2>
+                    <ul>
+                        {preprints.map(p => (
+                            <li key={p.id} className="mb-10">
+                                <div className="font-semibold [&>span]:font-normal">{p.attributes.title}
+                                    <span> {!!p.attributes.year && `(${p.attributes.year})`}</span>
+                                    {!!p.attributes.file?.url && 
+                                        <span> [<a href={p.attributes.file.url} target="_blank">view</a>]</span>
+                                    }
+                                </div>
+                                <div>{p.attributes.author}</div>
                                 {!p.attributes.file?.url && p.attributes.link && 
-                                    <span> [<a className="text-blue-600" href={p.attributes.link} target="_blank">view</a>]</span>
+                                    <span> [<a href={p.attributes.link} target="_blank">view</a>]</span>
                                 }
-                            </div>
-                            <div className="mb-1">{p.attributes.author}</div>
-                            <div>
-                                {!!p.attributes.pages && <div>Pages: {p.attributes.pages}</div>}
-                                {!!p.attributes.issue && <div>Issue: {p.attributes.issue}</div>}
-                                {!!p.attributes.volume && <div>Volume: {p.attributes.volume}</div>}
-                            </div>            
-                        </li>
-                    ))}
-                </ul>
-            </section>
-        </main>
-    </>
-  )
+                            </li>
+                        ))}
+                    </ul>
+                </section>
+                <hr />
+                <section>
+                    <h2>Publications</h2>
+                    <ul>
+                        {publications.map(p => (
+                            <li key={p.id} className="mb-10">
+                                <div className="font-semibold [&>span]:font-normal">{p.attributes.title}
+                                    <span> {!!p.attributes.year && `(${p.attributes.year})`}</span>
+                                    {!!p.attributes.file?.url &&
+                                    <span> [<a className="text-blue-600" href={p.attributes.file.url} target="_blank">view</a>]</span>
+                                    }
+                                    {!p.attributes.file?.url && p.attributes.link && 
+                                        <span> [<a className="text-blue-600" href={p.attributes.link} target="_blank">view</a>]</span>
+                                    }
+                                </div>
+                                <div className="mb-1">{p.attributes.author}</div>
+                                <div>
+                                    {getDetails(p)}
+                                </div>            
+                            </li>
+                        ))}
+                    </ul>
+                </section>
+            </main>
+        </>
+    )
 }
 
 export async function getServerSideProps({ res }: { res: NextApiResponse }) {

@@ -27,7 +27,7 @@ export default function MainMenu() {
                     {title}
                     </Link>
                 ))}
-                <a className={`bg-gradient-to-t from-blue200  from-0% via-blue100 via-5% to-blue to-60% text-white text-xs font-semibold px-2 py-0.5 mr-[0.4px] my-0.5 hover:text-white hover:no-underline hover:to-blue100 border-blue100 border`} target='_blank' href="https://www.github.com">Github</a>
+                <a className={`bg-gradient-to-t from-blue200  from-0% via-blue100 via-5% to-blue to-60% text-white text-xs font-semibold px-2 py-0.5 mr-[0.4px] my-0.5 hover:text-white hover:no-underline hover:to-blue100 border-blue100 border`} target='_blank' href="https://github.com/vguigues">Github</a>
             </nav>
         </div>
     )
