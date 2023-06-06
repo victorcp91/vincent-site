@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://vincentgyg.com
+
+# Sitemaps
+Sitemap: https://vincentgyg.com/sitemap.xml
