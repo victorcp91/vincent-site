@@ -13,7 +13,6 @@ export default function Projects({projects}: IProjects) {
     <>
         <Head>
             <title>Vincent Guigues | Projects</title>
-            <meta name="description" content="Page containing projects by Vincent Guigues"/>
         </Head>
         <main className="px-10 w-full max-w-2xl m-auto">
             <section>

@@ -49,6 +49,7 @@ export interface IPublication {
         issue?: string
         volume?: string
         pages?: string
+        journal?: string
     }
 }
 

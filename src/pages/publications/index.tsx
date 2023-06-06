@@ -23,13 +23,12 @@ export default function publications({ preprints, publications}: IPublications) 
             details.push(`Volume: ${p.attributes.volume}`)
         }
         return details.join(', ')
-    }
+    }    
 
     return (
         <>
             <Head>
                 <title>Vincent Guigues | Publications</title>
-                <meta name="description" content="Page containing publications by Vincent Guigues"/>
             </Head>
             <main className="px-10 w-full max-w-2xl m-auto">
                 <section>
@@ -66,7 +65,8 @@ export default function publications({ preprints, publications}: IPublications) 
                                         <span> [<a className="text-blue-600" href={p.attributes.link} target="_blank">view</a>]</span>
                                     }
                                 </div>
-                                <div className="mb-1">{p.attributes.author}</div>
+                                {!!p.attributes.journal && <div>{p.attributes.journal}</div>}
+                                <div >{p.attributes.author}</div>
                                 <div>
                                     {getDetails(p)}
                                 </div>            
