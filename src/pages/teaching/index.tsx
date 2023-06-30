@@ -16,7 +16,7 @@ interface ITeaching {
 
 export default function Teaching({teaching}: ITeaching) {
   return (
-    <div className="px-10 w-full max-w-2xl m-auto">
+    <div className="teaching px-10 w-full max-w-2xl m-auto">
       <Head>
         <title>Vincent Guigues | Teaching</title>
       </Head>
